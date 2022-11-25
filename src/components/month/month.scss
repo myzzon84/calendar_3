@@ -1,0 +1,51 @@
+.wrapperMonth{
+    margin-bottom: 20px;
+
+    .prev {
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-top-width: 16px;
+        border-bottom-width: 16px;
+        border-right: 44px solid black;
+    }
+
+    .next {
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-bottom-width: 16px;
+        border-top-width: 16px;
+        border-left: 44px solid black;
+    }
+
+    .controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .month{
+        font-size: 250%;
+        width: 250px;
+        text-align: center;
+
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
+
+    .containerDaysTitle{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .containerDaysNumber{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 60px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapperYear {
+    margin-bottom: 20px;
+
+    .controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prev {
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-top-width: 16px;
+        border-bottom-width: 16px;
+        border-right: 44px solid black;
+    }
+
+    .next {
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-bottom-width: 16px;
+        border-top-width: 16px;
+        border-left: 44px solid black;
+    }
+
+    .year{
+        font-size: 250%;
+        margin: 0 20px;
+    }
+}

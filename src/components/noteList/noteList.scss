@@ -1,0 +1,13 @@
+.wrapperNote{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px 0;
+
+    .date{
+        text-align: center;
+        font-weight: 900;
+    }
+}
